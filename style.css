@@ -140,8 +140,8 @@ body {
 {
   text-decoration: none;
   font-size: 17px;
-  font-weight: 600;
-  color: #ffffff;
+  font-weight: 400;
+  color: #0291ff;
   transition: 0.3s ease;
 }
 
@@ -1238,6 +1238,15 @@ footer
 
 
 /* Devices Review */
+
+#prodetails
+
+{
+  display: flex;
+  margin-top: 20px;
+}
+
+
 #prodetails .single-pro-image
 {
   width: 40%;
@@ -1255,6 +1264,89 @@ footer
 .small-img 
 {
   flex-basis: 24%;
-
-  ;
+  cursor: pointer;
 }
+
+
+
+#prodetails .single-pro-details
+{
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h6
+{
+  font-size: 15px;
+  color: #1d9dffd0;
+  font-weight: 300;
+}
+
+#prodetails .single-pro-details h4 
+{
+  padding: 40px 0 1px 0;
+  font-size: 30px;
+}
+
+#prodetails .single-pro-details h2
+{
+  font-size: 27px;
+}
+
+#prodetails .single-pro-details select
+{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#prodetails .single-pro-details input
+{
+  width: 60px;
+  height: 30px;
+  background: #ffffff;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 4px;
+}
+
+
+#prodetails .single-pro-details .btn
+{
+  padding: 10px 15px;
+  border: none;
+  background: #0ba6ff;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 1px 3px 10px rgb(181, 181, 181);
+}
+
+#prodetails .single-pro-details .details
+{
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+#prodetails .single-pro-details .details h5
+{
+  padding: 12px;
+  font-weight: 500;
+  background-color: hsla(0, 0%, 94%, 0.988);
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+
+
+#prodetails .single-pro-details .details h5 strong
+{
+  padding-right: 12px;
+}
+
+
+
+
